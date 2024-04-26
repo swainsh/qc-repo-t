@@ -1,2 +1,6 @@
+import time, datetime
+
 with open('log.txt', 'w') as writer:
-  writer.write('Hello World!')
+  while True:
+    writer.write(f"Hello World! {datetime.now()}")
+    time.sleep(5)
