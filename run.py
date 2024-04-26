@@ -1,4 +1,5 @@
-import time, datetime, os
+import time, os
+from datetime import datetime
 
 with open('log.txt', 'w') as writer:
   while True:
